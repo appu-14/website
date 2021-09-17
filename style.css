@@ -1,0 +1,409 @@
+html{
+    scroll-behavior:smooth;
+}
+.navbar {
+    background-color: rgb(63, 50, 58);
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    width: 1536px;
+    height: 100px;
+    font-size: 20px;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, .20);
+}
+
+
+.nav_side {
+    float: right;
+    width: 100%;
+}
+
+.nav_side a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: cosmic;
+}
+.nav_side a:hover{
+    color:greenyellow;
+}
+
+.pic {
+    padding-top: 100px;
+}
+
+li a,
+.a2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.a1:hover .dropbtn {
+    background-color: rgb(102, 96, 100);
+}
+
+li.a1 {
+    display: inline-block;
+}
+
+.a3 {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.a3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.a3 a:hover {
+    background-color: #ad4c8d;
+    width: 100%;
+    margin: 0px;
+}
+
+.a1:hover .a3 {
+    display: block;
+}
+
+input[type=text] {
+    padding-left: 50px;
+    padding: 6px;
+    margin-top: 10px;
+    border: none;
+    font-size: 17px;
+    width: 478px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: rgb(235, 222, 229);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: rgb(165, 105, 105);
+}
+.nav_side .btn{
+    color:white;
+    background-color:tomato;
+    height:35px;
+    width:73px;
+}
+.product {
+    padding-bottom: 50px;
+}
+
+.product h2 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.product .prd_container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.product .prd_container .item {
+    width: 33.3%;
+    margin: 10px;
+}
+
+.product .prd_container .item:hover {
+    box-shadow: 0px 0px 35px 0px lightslategray;
+}
+
+.product .prd_container .item .item_img {
+    width: 100%;
+    height: 398px;
+    overflow: hidden;
+
+}
+
+.product .prd_container .item .item_img img {
+    width: 100%;
+    height: 400px;
+}
+
+.product .prd_container .item .item_content {
+    text-align: center;
+}
+.product .prd_container .item .item_content p{
+    padding-bottom: 10px;
+    font-size:12px;
+}
+.product .prd_container .item .item_content a {
+    text-decoration: none;
+    margin: 50px;
+    padding: 15px 20px;
+    background-color: #4A148C;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.product .prd_container .item .item_content a:hover {
+    background-color: green;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+
+}
+.about {
+    padding: 100px;
+}
+
+.about h2 {
+    color: rgb(216, 37, 67);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.about .content p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.contactUs{
+    padding:100px;
+}
+.contact_content{
+    background-color:lightseagreen;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.review{
+    background-image:url('image/bg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left:150px;
+    margin-right:150px;
+}
+.review h2{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    padding:30px;
+}
+.review .form_content{
+    text-align:center;
+}
+.review .form_content form{
+    padding:50px;
+}
+.review .form_content form input{
+    width:400px;
+    margin:10px;
+    padding:10px;
+}
+.review .form_content form textarea{
+    width:300px;
+    margin:20px;
+    padding:10px;
+}
+.review .form_content form button{
+    width:70px;
+    height:30px;
+    margin: 10px;
+    background-color:mediumslateblue;
+    color:white;
+
+}
+footer{
+    background-color: rgb(63, 50, 58);
+}
+footer .pages {
+    text-align:center;
+    width: 25%;
+}
+footer .pages h3{
+    color:rgb(152, 157, 158);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+footer .pages a{
+    text-decoration:none;
+    padding: 0px 10px;
+    color:white;
+    font-size:15px;
+    font-family:cosmic,sans-serif;
+    border-right: 1px solid white;
+}
+footer .pages a:hover{
+    color:yellow;
+}
+footer .doc {
+    text-align:center;
+    width: 45%;
+}
+footer .doc h3{
+    color:rgb(187, 182, 182);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+footer .doc a{
+    text-decoration:none;
+    padding:0px 10px;
+    color:white;
+    font-size:15px;
+    font-family:cosmic,sans-serif;
+    border-right: 1px solid white;
+}
+footer .doc a:hover{
+    color:greenyellow;
+}
+footer .social {
+    text-align:center;
+    width: 15%;
+}
+footer .social h3{
+    color:rgb(177, 170, 170);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+
+footer .social a{
+    margin: 10px;
+    font-size: large;
+}
+footer .social a:hover{
+    color:blue;
+}
+footer .contact {
+    text-align:center;
+    width: 10%;
+}
+footer .contact h3{
+    color:rgb(177, 172, 172);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+footer .contact a{
+    margin:10px;
+    font-size: large;
+}
+footer .contact a:hover{
+    color:blue;
+}
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    /* background: #fff; */
+    border-radius: 5px;
+    /* width: 30%; */
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .close {
+    transition: all 200ms;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+   .close:hover {
+    color: #06D85F;
+  }
+  .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  .button1 {
+    background-color: rgb(4, 105, 109);
+    padding: 5px 28px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.button2 {
+    background-color: rgb(4, 105, 109);
+    padding: 5px 28px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
